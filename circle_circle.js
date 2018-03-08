@@ -34,6 +34,7 @@ const clear = function(){
   // while there are children, remove the first child
   while(pic.children.length)
     pic.firstChild.remove();
+  console.log();
 }
 
 // draw circle (inialization function)
@@ -75,3 +76,4 @@ const sudoku = function(e){
 pic.addEventListener("click", function(e){
   circle(e.offsetX, e.offsetY);
 })
+document.getElementById("clear").addEventListener("click", clear);
