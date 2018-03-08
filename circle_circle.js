@@ -23,6 +23,7 @@ var fColor2 = "green";
 var sColor = "black";
 
 
+
 /*
   ==============================================================================
                                   Functions
@@ -66,6 +67,9 @@ const sudoku = function(e){
   circle(Math.random() * w, Math.random() * h);
   console.log(pic);
 }
+
+
+
 /*
   ==============================================================================
                                   Final Setup
